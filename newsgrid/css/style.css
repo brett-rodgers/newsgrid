@@ -109,13 +109,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-.py-1 { padding: 1.5rem 0 }
-.py-2 { padding: 2rem 0 }
-.py-3 { padding: 3rem 0 }
-.p-1 { padding: 1.5rem }
-.p-2 { padding: 2rem }
-.p-3 { padding: 3rem }
-
 .bg-dark h1,
 .bg-dark h2,
 .bg-dark h3,
@@ -131,10 +124,20 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+.py-1 { padding: 1.5rem 0 }
+.py-2 { padding: 2rem 0 }
+.py-3 { padding: 3rem 0 }
+.p-1 { padding: 1.5rem }
+.p-2 { padding: 2rem }
+.p-3 { padding: 3rem }
 .list li {
   padding: .5rem 0;
   border-bottom: #555 dotted 1px;
   width: 90%;
+}
+
+.l-heading {
+  font-size: 3rem;
 }
 
 .list li a:hover {
@@ -257,6 +260,18 @@ h1, h2, h3, h4, h5, h6 {
   grid-column: 2 / span 2;
 }
 
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+
+#article .meta .category {
+  margin-top: 0.4rem;
+}
+
 /* Footer */
 #main-footer {
   background: var(--dark-color);
@@ -294,3 +309,4 @@ h1, h2, h3, h4, h5, h6 {
 #main-footer .footer-container input[type='submit'] {
   width: 90%;
 }
+
